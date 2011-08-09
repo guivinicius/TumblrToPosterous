@@ -9,11 +9,9 @@ Come to a serious blog/site platform and be happy again.
 
 I know Posterous have a import mechanism, but didn't worked for me (I don't know why), so ... I create mine. Sorry.
 
-...................
-
 == USAGE
 
-$ git clone git@github.com:guivinicius/TumblrToPosterous.git
+  $ git clone git@github.com:guivinicius/TumblrToPosterous.git
 
 Go to Posterous website and create a new website, then go to http://posterous.com/api to get you API key.
   
