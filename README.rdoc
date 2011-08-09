@@ -1,23 +1,23 @@
 = TumblrToPosterous
 
-  Do you have a nice blog on Tumblr platform ?
-  But you're tired of the large amount of hipsters and fancy gifs ?
+ Do you have a nice blog on Tumblr platform ?
+ But you're tired of the large amount of hipsters and fancy gifs ?
 
-  Come to a serious blog/site platform and be happy again.
+ Come to a serious blog/site platform and be happy again.
 
-  ...................
+ ...................
 
-  I know Posterous have a import mechanism, but didn't worked for me (I don't know why), so ... I create mine. Sorry.
+ I know Posterous have a import mechanism, but didn't worked for me (I don't know why), so ... I create mine. Sorry.
 
-  ...................
+ ...................
 
 == USAGE
 
-  $ git clone git@github.com:guivinicius/TumblrToPosterous.git
+ $ git clone git@github.com:guivinicius/TumblrToPosterous.git
 
-  Go to Posterous website and create a new website, then go to http://posterous.com/api to get you API key.
+ Go to Posterous website and create a new website, then go to http://posterous.com/api to get you API key.
   
-  Fill in!!!
+ Fill in!!!
 
   Posterous.config = {
   'username'  => '<YourEmail>',
@@ -25,30 +25,30 @@
   'api_token' => '<YourAPI>'
   }
   
-  Put your Posterous site name here.
+ Put your Posterous site name here.
   blog = Site.find('guivinicius')
 
-  Put your Tumblr address here!
+ Put your Tumblr address here!
   response = HTTParty.get('http://www.guivinicius.com.br/api/read/json?debug=1')
 
-  ...............
+ ...............
 
-  I believe this should help. But ... hack my code. Please.
+ I believe this should help. But ... hack my code. Please.
 
 
 == TODO's
   
-  - Make a website at Heroku to work for everyone!
-  - Add some tests (Please)
+ - Make a website at Heroku to work for everyone!
+ - Add some tests (Please)
 
-  and a lot more. If you guys need. \o/
+ and a lot more. If you guys need. \o/
 
 == ISSUES / SUGGESTIONS
   
-  Please open a issue and tag it!
+ Please open a issue and tag it!
   
-  I will be happy to solve you problem or work in your idea.
+ I will be happy to solve you problem or work in your idea.
 
 == LICENSE
 
-  DO WHAT YOU WANT!
+ DO WHAT YOU WANT!
