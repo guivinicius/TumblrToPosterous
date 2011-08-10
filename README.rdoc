@@ -7,7 +7,7 @@ Come to a serious blog/site platform and be happy again.
 
 ...................
 
-I know Posterous have a import mechanism, but didn't worked for me (I don't know why), so ... I create mine. Sorry.
+I know Posterous have a import mechanism, but didn't worked for me (I don't know why), so ... I created mine. Sorry.
 
 == USAGE
 
